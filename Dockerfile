@@ -1,4 +1,4 @@
 FROM openjdk:17
-COPY ./out/production/DockerHelloJava/ /tmp
+COPY .java/in/javahome/myweb/controller
 WORKDIR /tmp
 ENTRYPOINT ["java","HelloWorld"]
