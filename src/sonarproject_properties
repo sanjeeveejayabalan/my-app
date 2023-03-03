@@ -1,5 +1,7 @@
-sonar.projectKey=sonarqube-test
-sonar.projectName=sonarqube-test
+mvn sonar:sonar \
+  -Dsonar.projectKey=sonarqube_project \
+  -Dsonar.host.url=http://20.203.73.249:9000 \
+  -Dsonar.login=jenkinssonar.projectKey=sonarqube-test
 sonar.projectVersion=1.0
 sonar.sources=src/master/
 sonar.host.url=http://20.203.73.249:9000/
