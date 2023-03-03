@@ -1,7 +1,7 @@
 sonar.projectKey=sonarqube-test
 sonar.projectName=sonarqube-test
 sonar.projectVersion=1.0
-sonar.sources=src/main/
+sonar.sources=src/master/
 sonar.host.url=http://20.203.73.249:9000/
 sonar.tests=src/test/
 sonar.coverage.jacoco.xmlReportPaths=build/reports/jacoco/test/jacocoTestReport.xml
