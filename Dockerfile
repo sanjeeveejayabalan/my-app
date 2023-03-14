@@ -1,3 +1,1 @@
-FROM tomcat:8
-# Take the war and copy to webapps of tomcat
-COPY target/newapp.war /usr/local/tomcat/webapps/123
+openjdk-7-jre/Dockerfile
